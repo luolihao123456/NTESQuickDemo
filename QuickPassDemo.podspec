@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QuickPassDemo'
-  s.version          = '2.0'
-  s.summary          = 'A short description of QuickPassDemo.'
+  s.version          = '2.1'
+  s.summary          = 'QuickPassDemo.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,17 +17,18 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-#  s.description      = <<-DESC
-#TODO: Add long description of the pod here.
+  s.description      = 'A short description of QuickPassDemo.ZUJIAN'
+
 #                       DESC
 
-  s.homepage         = 'https://github.com/luolihao123456/QuickPassDemo'
+  s.homepage         = 'https://github.com/luolihao123456/NTESQuickDemo'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'luolihao123456' => 'luolihao123456@163.com' }
-  s.source           = { :git => 'https://github.com/luolihao123456/QuickPassDemo.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/luolihao123456/NTESQuickDemo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.source_files = 'QuickPassDemo/Classes/*.{h,m}'
   s.ios.deployment_target = '8.0'
   s.vendored_frameworks = ['QuickPassDemo/Classes/NTESQuickPass.framework','QuickPassDemo/Classes/EAccountApiSDK.framework','QuickPassDemo/Classes/TYRZSDK.framework','QuickPassDemo/Classes/OAuth.framework']
   

@@ -7,7 +7,5 @@ target 'QuickPassDemo_Example' do
 
   target 'QuickPassDemo_Tests' do
     inherit! :search_paths
-
-    
   end
 end
