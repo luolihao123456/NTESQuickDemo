@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'QuickPassDemo_Example' do
+  pod 'QuickPassDemo', :path => '../'
+
+  target 'QuickPassDemo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

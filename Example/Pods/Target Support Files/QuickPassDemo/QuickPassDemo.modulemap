@@ -1,0 +1,6 @@
+framework module QuickPassDemo {
+  umbrella header "QuickPassDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_QuickPassDemo_Example {
+  umbrella header "Pods-QuickPassDemo_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
