@@ -30,7 +30,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'QuickPassDemo/Classes/*.{h,m}'
   s.ios.deployment_target = '8.0'
-  s.vendored_frameworks = ['QuickPassDemo/Classes/NTESQuickPass.framework','QuickPassDemo/Classes/EAccountApiSDK.framework','QuickPassDemo/Classes/TYRZSDK.framework','QuickPassDemo/Classes/OAuth.framework']
+  s.vendored_frameworks = ['QuickPassDemo/Classess/NTESQuickPass.framework','QuickPassDemo/Classess/EAccountApiSDK.framework','QuickPassDemo/Classess/TYRZSDK.framework','QuickPassDemo/Classess/OAuth.framework']
   
    s.resource_bundles = {
      'QuickPassDemo' => ['QuickPassDemo/Assets/sdk_oauth.bundle','QuickPassDemo/Assets/TYRZResource.bundle']

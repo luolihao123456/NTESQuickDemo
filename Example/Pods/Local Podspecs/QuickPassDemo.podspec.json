@@ -1,9 +1,9 @@
 {
   "name": "QuickPassDemo",
-  "version": "2.0",
-  "summary": "A short description of QuickPassDemo.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/luolihao123456/QuickPassDemo",
+  "version": "2.6",
+  "summary": "QuickPassDemo.",
+  "description": "A short description of QuickPassDemo.ZUJIAN",
+  "homepage": "https://github.com/luolihao123456/NTESQuickDemo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,17 +12,18 @@
     "luolihao123456": "luolihao123456@163.com"
   },
   "source": {
-    "git": "https://github.com/luolihao123456/QuickPassDemo.git",
-    "tag": "2.0"
+    "git": "https://github.com/luolihao123456/NTESQuickDemo.git",
+    "tag": "2.6"
   },
+  "source_files": "QuickPassDemo/Classes/*.{h,m}",
   "platforms": {
     "ios": "8.0"
   },
   "vendored_frameworks": [
-    "QuickPassDemo/Classes/NTESQuickPass.framework",
-    "QuickPassDemo/Classes/EAccountApiSDK.framework",
-    "QuickPassDemo/Classes/TYRZSDK.framework",
-    "QuickPassDemo/Classes/OAuth.framework"
+    "QuickPassDemo/Classess/NTESQuickPass.framework",
+    "QuickPassDemo/Classess/EAccountApiSDK.framework",
+    "QuickPassDemo/Classess/TYRZSDK.framework",
+    "QuickPassDemo/Classess/OAuth.framework"
   ],
   "resource_bundles": {
     "QuickPassDemo": [
@@ -30,14 +31,8 @@
       "QuickPassDemo/Assets/TYRZResource.bundle"
     ]
   },
-  "public_header_files": "Pod/Classes/**/*.h",
   "frameworks": [
     "UIKit",
     "MapKit"
-  ],
-  "dependencies": {
-    "AFNetworking": [
-      "~> 2.3"
-    ]
-  }
+  ]
 }
