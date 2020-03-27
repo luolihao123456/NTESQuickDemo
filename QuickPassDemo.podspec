@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'QuickPassDemo'
-  s.version          = '2.6'
+  s.version          = '2.7'
   s.summary          = 'QuickPassDemo.'
 
 # This description is used to generate tags and improve search results.
