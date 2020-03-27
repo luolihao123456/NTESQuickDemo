@@ -19,7 +19,7 @@
 {
     [super viewDidLoad];
 }
-
+/// sweew
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
